@@ -170,3 +170,5 @@ class ProductImport(APIView):
     def post(self, request, *args, **kwargs):
         # Логика импорта товаров
         return Response({"message": "Products imported successfully"}, status=status.HTTP_200_OK)
+
+
