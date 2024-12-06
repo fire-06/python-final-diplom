@@ -81,3 +81,8 @@ class ProductParameterSerializer(serializers.ModelSerializer):
     class Meta:
         model = ProductParameter
         fields = ['id', 'product_info', 'parameter', 'value']
+
+
+
+
+#прппппп
